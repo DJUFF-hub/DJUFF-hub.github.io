@@ -2,6 +2,14 @@
 
 Esqueleto editorial e pipeline de projetos para a fachada pública do DJUFF.
 
+## Páginas
+
+- `/` — abertura com a foto do grupo
+- `/jogos/` — portfólio sincronizado com o itch.io
+- `/grupo/` — história e integrantes
+- `/atividades/` — frentes permanentes do coletivo
+- `/parceiros/` — rede institucional e universitária
+
 ## Desenvolvimento
 
 ```bash

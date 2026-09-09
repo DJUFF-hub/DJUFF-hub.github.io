@@ -1,2 +1,3 @@
-import { Header } from '@/components/site/header'; import { Hero } from '@/components/site/hero'; import { GamePortfolio } from '@/components/site/game-portfolio'; import { About } from '@/components/site/about'; import { Activities } from '@/components/site/activities'; import { Partners } from '@/components/site/partners'; import { Footer } from '@/components/site/footer';
-export default function Home(){return <main><Header/><Hero/><GamePortfolio/><About/><Activities/><Partners/><Footer/></main>}
+import { Header } from '@/components/site/header';
+
+export default function Home(){return <main className="home-page"><Header/><section className="home-photo" aria-label="Foto do grupo DJUFF"><img src="/grupo-djuff.jpg" alt="Integrantes do DJUFF reunidos na Universidade Federal Fluminense"/></section></main>}
