@@ -9,12 +9,14 @@ npm install
 npm run dev
 ```
 
-## Dados do GitHub
+## Portfólio
+
+Os jogos são sincronizados das coleções públicas do perfil do DJUFF no itch.io:
 
 ```bash
-npm run sync:projects
+npm run sync:itch
 ```
 
-Sem `GITHUB_TOKEN`, a API pública do GitHub aplica um limite menor. No GitHub Actions, o token temporário do próprio workflow é usado automaticamente.
+O GitHub Actions executa essa sincronização antes de publicar. Correções editoriais ficam em `content/itch-overrides.json`.
 
 Leia `DESIGN-HANDOFF.md` antes de iniciar o frontend final.

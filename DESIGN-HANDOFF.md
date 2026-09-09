@@ -4,27 +4,22 @@ Este projeto separa apresentação, conteúdo e sincronização. A designer pode
 
 ## Onde trabalhar
 
-- `app/page.tsx`: estrutura semântica e componentes da página.
+- `app/page.tsx`: composição mínima da página.
+- `components/site/`: um componente por seção, onde a frontend pode trabalhar isoladamente.
 - `app/globals.css`: tokens, layout, tipografia e responsividade.
 - `content/site.ts`: textos, links, atividades e parceiros.
 - `public/`: logotipo, fotografias, capturas e outros assets aprovados pelo grupo.
 
 ## O que não precisa ser alterado
 
-- `scripts/sync-github.mjs`: consulta os repositórios públicos.
-- `lib/projects.ts`: contrato dos dados de projeto.
-- `.github/workflows/deploy-pages.yml`: atualiza o catálogo e publica o site.
+- `public/data/itch-games.json`: último catálogo válido gerado automaticamente.
+- `content/itch-overrides.json`: correções editoriais, renomes e jogos ocultos.
+- `scripts/sync-itch.mjs`: sincronizador resiliente do perfil público.
+- `.github/workflows/deploy-pages.yml`: compila e publica o site.
 
-## Convenção dos repositórios
+## Catálogo de jogos
 
-Preencha a descrição de cada repositório e use tópicos para controlar a vitrine:
-
-- `featured`: prioriza o projeto na lista.
-- `released`, `prototype` ou `in-development`: estado exibido.
-- `hide-from-site`: não publica o repositório na fachada.
-- A linguagem principal do GitHub aparece como tecnologia.
-
-O arquivo `public/data/projects.json` é gerado automaticamente. Não edite à mão, salvo para prototipação local.
+O workflow consulta o perfil do DJUFF antes de cada publicação e atualiza `public/data/itch-games.json`. Se a coleta falhar ou retornar um catálogo incompleto, o passo fica sinalizado no Actions, mas a compilação usa o último JSON válido e a página não sai do ar. Ajustes manuais ficam em `content/itch-overrides.json`.
 
 ## Princípios visuais
 

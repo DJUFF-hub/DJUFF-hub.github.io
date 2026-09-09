@@ -1,0 +1,2 @@
+import { siteContent } from '@/content/site';
+export function About(){return <section className="section about-section" id="grupo"><div className="section-heading light"><div><span className="section-number">02</span><h2>O grupo</h2></div></div><div className="about-grid"><p className="statement">Um coletivo estudantil para quem quer entender jogos por dentro — e construir junto.</p><div className="about-copy"><p>{siteContent.about}</p><p className="fact-line">Desde 2019 · Aberto a diferentes cursos e níveis de experiência</p></div></div></section>}
