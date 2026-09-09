@@ -32,7 +32,6 @@ $('.collection_row').each((_, row) => {
       url,
       image,
       description: $(cell).find('.game_text').attr('title') || $(cell).find('.game_text').text().trim() || undefined,
-      genre: $(cell).find('.game_genre').text().trim() || undefined,
       ...(overrides.games?.[url] || {}),
     });
   });

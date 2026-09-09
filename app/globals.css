@@ -64,7 +64,7 @@ nav a:hover,.header-cta:hover { border-bottom-color:var(--purple); }
 .game-item:hover img { transform:translateY(-5px); filter:saturate(1.08); }
 .game-meta { display:flex; flex-direction:column; gap:4px; padding-top:13px; }
 .game-meta strong { font-size:1rem; line-height:1.25; }
-.game-meta small { color:var(--brand-gray-dark); font-size:.8rem; }
+.game-meta small { color:var(--brand-gray-dark); font-size:.82rem; line-height:1.4; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden; }
 .about-section { background:var(--brand-navy); color:white; }
 .about-section .section-heading { border-color:rgba(255,255,255,.25); }
 .about-grid { display:grid; grid-template-columns:1.5fr 1fr; gap:clamp(50px,10vw,150px); padding-top:60px; }
