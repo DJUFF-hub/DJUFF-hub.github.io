@@ -9,13 +9,14 @@ export const siteContent = {
     { title: 'Publicação', description: 'Jogos, código e processos disponíveis para jogar, estudar e continuar desenvolvendo.' },
   ],
   partnerGroups: [
-    { label: 'Apoio institucional', partners: [{ name: 'Instituto de Computação — UFF', url: 'https://www.ic.uff.br/' }] },
+    { label: 'Apoio institucional', partners: [{ name: 'Instituto de Computação — UFF', url: 'https://www.ic.uff.br/', logo: '/partners/ic-uff.png' }] },
     { label: 'Rede universitária', partners: [
-      { name: 'PRISMA — PUC-Rio', url: 'https://prismagamelab.itch.io/' },
-      { name: 'GameLab UERJ', url: 'https://gamelabuerj.itch.io/' },
-      { name: 'GDP — UFRJ', url: 'https://www.instagram.com/gdpufrj/' },
+      { name: 'PRISMA — PUC-Rio', url: 'https://prismagamelab.itch.io/', logo: '/partners/prisma.png' },
+      { name: 'GameLab UERJ', url: 'https://gamelabuerj.itch.io/', logo: '/partners/gamelab-uerj.png' },
+      { name: 'GDP — UFRJ', url: 'https://www.instagram.com/gdpufrj/', logo: '/partners/gdp-ufrj.png' },
+      { name: 'Include Meninas — UFF', url: 'https://sites.google.com/view/include-meninas-uff', logo: '/partners/include-meninas.png' },
     ] },
-    { label: 'Ecossistema de jogos', partners: [{ name: 'ACJOGOS-RJ', url: 'https://rj.acjogos.com.br/' }] },
+    { label: 'Ecossistema de jogos', partners: [{ name: 'ACJOGOS-RJ', url: 'https://rj.acjogos.com.br/', logo: '/partners/acjogos-rj.webp' }] },
   ],
   links: { github: 'https://github.com/DJUFF-Projects', itch: 'https://djuff-oficial.itch.io/', instagram: 'https://www.instagram.com/djuff.oficial/' },
 } as const;

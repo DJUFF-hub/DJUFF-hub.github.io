@@ -30,6 +30,9 @@ yarn-error.log*
 .env*
 
 # deployment and generated files
+.openai/
+.codex/
+.agents/
 .vercel
 next-env.d.ts
 tsconfig.tsbuildinfo
