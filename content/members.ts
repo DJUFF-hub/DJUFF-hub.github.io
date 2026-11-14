@@ -31,7 +31,11 @@ export const members = [
     name: 'Felipe “GoDoug” Barreto',
     role: 'Professor de Programação de Jogos no Gaming Parque, mestre em Ensino de Ciências da Natureza e graduado em Física e Matemática',
   },
-  { name: 'Felipe Dutra', role: 'Graduando em Ciência da Computação' },
+  {
+    name: 'Felipe Dutra',
+    role: 'Graduando em Ciência da Computação',
+    photo: '/participants/Felipe Dutra.jpeg',
+  },
   {
     name: 'Gabriel Coelho',
     role: 'Graduando em Engenharia Elétrica',
@@ -46,7 +50,8 @@ export const members = [
   },
   {
     name: 'Gabriel “Gabcentro” Ribeiro',
-    role: 'Graduado em Desenho Industrial',
+    role: 'Professor de Design no Senac, pós-graduado em UX pela PUCRS e graduado em Desenho Industrial',
+    photo: '/participants/Gabriel Ribeiro.jpeg',
   },
   { name: 'João Gaidzinski', role: 'Graduado em Sistemas da Informação' },
   {

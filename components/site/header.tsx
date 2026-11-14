@@ -1,17 +1,18 @@
+import Link from 'next/link';
 import { navigation } from '@/content/navigation';
 import { siteContent } from '@/content/site';
 export function Header() {
   return (
     <header className="site-header">
-      <a className="wordmark" href="/" aria-label="DJUFF — página inicial">
+      <Link className="wordmark" href="/" aria-label="DJUFF — página inicial">
         <img src={siteContent.brand.logo} alt="" />
         <span>{siteContent.brand.name}</span>
-      </a>
+      </Link>
       <nav aria-label="Navegação principal">
         {navigation.map((item) => (
-          <a href={item.href} key={item.href}>
+          <Link href={item.href} key={item.href}>
             {item.label}
-          </a>
+          </Link>
         ))}
       </nav>
       <a
