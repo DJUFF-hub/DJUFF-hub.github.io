@@ -24,7 +24,8 @@ export const members = [
   },
   {
     name: 'Emanuelly Araújo',
-    role: 'Graduada em Comunicação Social — Publicidade e Propaganda',
+    role: 'Graduada em Comunicação Social — Publicidade e Propaganda. Atua em gestão de projetos, produção e game design',
+    photo: '/participants/Emanuelly Araújo.jpeg',
   },
   {
     name: 'Felipe “GoDoug” Barreto',
@@ -53,7 +54,11 @@ export const members = [
     role: 'Mestrando em Ciência da Computação',
   },
   { name: 'João Mendes', role: 'Graduando em Ciência da Computação' },
-  { name: 'João “Pepeco” Monteiro', role: 'Graduado em Ciência da Computação' },
+  {
+    name: 'João Pedro “Pepeco” Monteiro',
+    role: 'Graduado em Ciência da Computação',
+    photo: '/participants/João Pedro Monteiro.jpeg',
+  },
   {
     name: 'Júlia Lobo',
     role: 'Graduanda em Mídias e graduada em Jogos Digitais',
