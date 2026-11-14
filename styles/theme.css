@@ -1,0 +1,30 @@
+:root {
+  /* Paleta oficial. */
+  --brand-navy: #33387c;
+  --brand-indigo: #5b61ba;
+  --brand-periwinkle: #858ced;
+  --brand-violet: #8c52ff;
+  --brand-black: #000000;
+  --brand-gray-dark: #737373;
+  --brand-gray-light: #a6a6a6;
+  --brand-white: #ffffff;
+
+  /* Papéis visuais: altere estes aliases para mudar o tema. */
+  --background: var(--brand-navy);
+  --surface: var(--brand-navy);
+  --surface-raised: var(--brand-indigo);
+  --text: var(--brand-white);
+  --text-muted: var(--brand-white);
+  --heading: var(--brand-periwinkle);
+  --accent: var(--brand-periwinkle);
+  --focus: var(--brand-periwinkle);
+  --line: rgb(166 166 166 / 45%);
+  --font-body: 'DM Sans', Arial, sans-serif;
+  --font-display: 'Anton', 'Arial Narrow', sans-serif;
+  --page-gutter: clamp(20px, 5vw, 72px);
+  /* Compatibilidade com componentes existentes. */
+  --ink: var(--text);
+  --paper: var(--surface);
+  --purple: var(--accent);
+  --signal: var(--accent);
+}

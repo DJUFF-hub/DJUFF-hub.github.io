@@ -1,0 +1,33 @@
+footer {
+  background: var(--brand-indigo);
+  color: var(--text);
+  padding: 54px var(--page-gutter);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  align-items: end;
+}
+footer strong {
+  font: 400 clamp(3rem, 8vw, 8rem)/0.8 var(--font-display);
+  letter-spacing: -0.06em;
+}
+footer p {
+  max-width: 420px;
+}
+.footer-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.footer-links a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.footer-note {
+  grid-column: 1/-1;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  margin: 0;
+  font-size: 0.8rem;
+}

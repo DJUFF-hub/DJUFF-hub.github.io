@@ -12,7 +12,9 @@
     "sync:itch": "node scripts/sync-itch.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "typecheck": "tsc --noEmit",
+    "format:site": "oxfmt \"app/**/*.{ts,tsx,css}\" \"components/site/**/*.tsx\" \"content/*.ts\" \"styles/**/*.{css,ts}\""
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
