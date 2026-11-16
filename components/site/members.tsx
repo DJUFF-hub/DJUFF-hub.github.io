@@ -6,7 +6,7 @@ function MemberGrid({ people }: { people: Member[] }) {
       {people.map((member) => (
         <article className="member" key={member.name}>
           <div className="member-photo">
-            {member.photo && (
+            {member.photo ? (
               <img
                 src={member.photo}
                 alt={`Retrato de ${member.name}`}
@@ -14,6 +14,8 @@ function MemberGrid({ people }: { people: Member[] }) {
                 width={800}
                 height={1000}
               />
+            ) : (
+              <span className="member-photo-placeholder" aria-hidden="true" />
             )}
           </div>
           <h4>{member.name}</h4>

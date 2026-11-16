@@ -57,6 +57,7 @@ export const members = [
   {
     name: 'João Guilherme Beltrão',
     role: 'Mestrando em Ciência da Computação',
+    photo: '/participants/João Guilherme.jpeg',
   },
   { name: 'João Mendes', role: 'Graduando em Ciência da Computação' },
   {
@@ -85,8 +86,16 @@ export const members = [
     role: 'Graduanda em Ciência da Computação',
     photo: '/participants/Marianna Lima.jpeg',
   },
-  { name: "Silvio D'Arcangelo", role: 'Graduando em Ciência da Computação' },
-  { name: 'Tamires da Hora', role: 'Graduanda em Sistemas da Informação' },
+  {
+    name: "Silvio D'Arcangelo",
+    role: 'Graduando em Ciência da Computação',
+    photo: "/participants/Silvio D'Arcangelo.jpeg",
+  },
+  {
+    name: 'Tamires da Hora',
+    role: 'Graduanda em Sistemas da Informação',
+    photo: '/participants/Tamires da Hora.jpeg',
+  },
 ] satisfies Member[];
 
 export const formerMembers = [

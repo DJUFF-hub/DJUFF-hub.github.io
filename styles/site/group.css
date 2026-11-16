@@ -83,6 +83,31 @@
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid var(--line);
 }
+.member-photo-placeholder {
+  position: absolute;
+  inset: 0;
+  color: var(--accent);
+}
+.member-photo-placeholder::before,
+.member-photo-placeholder::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: currentColor;
+}
+.member-photo-placeholder::before {
+  bottom: 46%;
+  width: 23%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.member-photo-placeholder::after {
+  top: 58%;
+  width: 52%;
+  height: 22%;
+  border-radius: 50% 50% 12% 12% / 85% 85% 15% 15%;
+}
 .member h4 {
   font-weight: 700;
   margin: 18px 0 5px;
