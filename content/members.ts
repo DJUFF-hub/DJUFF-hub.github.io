@@ -98,7 +98,7 @@ export const members = [
   },
   {
     name: 'Júlia Lobo',
-    role: 'Graduanda em Mídias e graduada em Jogos Digitais',
+    role: 'Graduanda em Mídias e graduada em Jogos Digitais. É diretora de operações da ACJOGOS-RJ e lidera o estúdio LOBO House Interactive, responsável pelo desenvolvimento de Pastelo, jogo contemplado na 5ª edição do edital Sampa Games.',
     photo: '/participants/Júlia Lobo.jpeg',
   },
   {
@@ -108,7 +108,7 @@ export const members = [
   },
   {
     name: 'Leon Stevans',
-    role: 'Graduando em Sistemas da Informação',
+    role: 'Graduando em Sistemas da Informação. Desenvolvedor solo à frente do estúdio noidnoidnoid e criador de [AFANTASIA], jogo independente premiado com publicação internacional anunciada pelo Studio Sasanqua.',
     photo: '/participants/Leon Stevans.jpeg',
   },
   {
@@ -166,7 +166,7 @@ export const partnerMembers = [
   },
   {
     name: 'Márcio Filho',
-    role: 'Fundador da GF Corp e ex-presidente da ACJOGOS-RJ. Atua com jogos aplicados à educação e na articulação do setor de jogos digitais.',
+    role: 'Graduado em Direito, com formação em gamificação pela Wharton (UPenn) e em docência virtual pelo programa Virtual Teacher da Universidade da Califórnia, Irvine (UCI). Tem mais de 20 anos de experiência com jogos eletrônicos. Fundou a GF Corp e criou a CASE, plataforma que integra jogos e aprendizagem. Desenvolveu mais de 60 jogos e experiências gamificadas para organizações como SESI, SESC e Furnas e registrou cerca de dez propriedades intelectuais no INPI. Coorganizou simpósios de jogos, realidade virtual e computação com a Sociedade Brasileira de Computação. Em Niterói, foi conselheiro do Orçamento Participativo da Cultura e parecerista do primeiro edital público de cultura geek do país. Presidiu a RING (2022–2024) e foi reeleito para a presidência da ACJOGOS-RJ (2024–2026). Atuou na articulação do Marco Legal dos Games e é coautor do PL dos Games Vivos (PL 3612/2026).',
     photo: '/participants/Márcio Filho.jpeg',
     profileUrl: 'https://www.linkedin.com/in/filhomarcio/',
   },

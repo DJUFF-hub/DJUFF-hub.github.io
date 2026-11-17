@@ -186,11 +186,34 @@
 .member-group .members-grid {
   margin-top: 24px;
 }
+.individual-partners {
+  margin-top: 28px;
+}
+.individual-partners > h2 {
+  font-size: 1.25rem;
+}
 .individual-partners .members-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  max-width: 720px;
+  margin-top: 12px;
 }
-@media (max-width: 520px) {
+.individual-partners .member {
+  display: grid;
+  grid-template-columns: clamp(76px, 10vw, 120px) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  align-content: start;
+  gap: 4px 12px;
+  padding: 12px;
+}
+.individual-partners .member-photo {
+  grid-row: 1 / span 2;
+  align-self: start;
+}
+.individual-partners .member-name,
+.individual-partners .member p {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+@media (max-width: 700px) {
   .individual-partners .members-grid {
     grid-template-columns: 1fr;
   }
