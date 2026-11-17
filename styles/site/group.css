@@ -8,7 +8,7 @@
   flex: 0 0 auto;
 }
 .home-navigation {
-  padding-block: clamp(40px, 6vw, 80px);
+  padding-block: clamp(16px, 2vw, 28px) clamp(16px, 2vw, 32px);
 }
 .home-navigation h2 {
   margin: 0 0 28px;
@@ -72,7 +72,7 @@
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: clamp(48px, 9vw, 140px);
-  padding-top: clamp(48px, 7vw, 90px);
+  padding-block: clamp(32px, 4vw, 56px) clamp(16px, 2vw, 28px);
 }
 .group-story > div {
   align-self: end;
@@ -81,6 +81,9 @@
 }
 .group-story > div p {
   margin: 0 0 20px;
+}
+.group-story > div p:last-child {
+  margin-bottom: 0;
 }
 .members-section {
   padding: clamp(64px, 8vw, 110px) var(--page-gutter) clamp(90px, 10vw, 150px);
@@ -221,7 +224,6 @@
 .founders {
   margin-top: clamp(40px, 6vw, 72px);
   padding-top: 24px;
-  border-top: 1px solid var(--line);
 }
 .founders-heading {
   display: flex;

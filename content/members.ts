@@ -135,16 +135,6 @@ export const members = [
 
 export const formerMembers = [
   {
-    name: 'Michelle Mayumi Tizuka',
-    role: 'Geóloga, mestre em Geociências e Meio Ambiente, arqueóloga e doutora em Ciência da Computação',
-    photo: '/participants/Michelle Mayumi Tizuka.jpeg',
-  },
-  {
-    name: 'Thay Pantuza',
-    role: 'Mestre em Tecnologias de Comunicação e Cultura pela UERJ, na área de Comunicação Social, com ênfase em Game Studies, e bacharel em Cinema e Audiovisual pela UFF. Diretora criativa e Game Producer no Pantuza Studios, embaixadora da Women in Games, curadora de jogos e códigos criativos no Festival Ecrã e designer de narrativa do jogo Sonatina. Atua também como Game Producer, designer de narrativa e social media na Purple Shore Studio, no jogo The Pale Place.',
-    photo: '/participants/Thays Pantuza.png',
-  },
-  {
     name: 'Gabriel Machado Gomes',
     founder: true,
     photo: '/participants/Gabriel Machado.jpeg',
@@ -154,6 +144,16 @@ export const formerMembers = [
     name: 'Gabriel Tavares Gagur',
     role: 'Graduado em Ciência da Computação e Unity Developer',
     photo: '/participants/Gabriel Tavares.jpeg',
+  },
+  {
+    name: 'Michelle Mayumi Tizuka',
+    role: 'Geóloga, mestre em Geociências e Meio Ambiente, arqueóloga e doutora em Ciência da Computação',
+    photo: '/participants/Michelle Mayumi Tizuka.jpeg',
+  },
+  {
+    name: 'Thay Pantuza',
+    role: 'Mestre em Tecnologias de Comunicação e Cultura pela UERJ, na área de Comunicação Social, com ênfase em Game Studies, e bacharel em Cinema e Audiovisual pela UFF. Diretora criativa e Game Producer no Pantuza Studios, embaixadora da Women in Games, curadora de jogos e códigos criativos no Festival Ecrã e designer de narrativa do jogo Sonatina. Atua também como Game Producer, designer de narrativa e social media na Purple Shore Studio, no jogo The Pale Place.',
+    photo: '/participants/Thays Pantuza.png',
   },
 ] satisfies Member[];
 

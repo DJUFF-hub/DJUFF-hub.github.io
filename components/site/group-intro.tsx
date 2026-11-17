@@ -1,6 +1,7 @@
+import type { ReactNode } from 'react';
 import { siteContent } from '@/content/site';
 
-export function GroupIntro() {
+export function GroupIntro({ children }: { children: ReactNode }) {
   return (
     <section
       className="section group-intro"
@@ -8,6 +9,7 @@ export function GroupIntro() {
     >
       <div className="section-heading">
         <div>
+          <span className="section-number">01</span>
           <h1 id="group-intro-title">O grupo</h1>
         </div>
         <p>
@@ -15,13 +17,24 @@ export function GroupIntro() {
           Fluminense.
         </p>
       </div>
-      <div className="group-story">
-        <p className="statement">{siteContent.group.statement}</p>
-        <div>
-          {siteContent.group.history.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
-          ))}
-        </div>
+      {children}
+    </section>
+  );
+}
+
+export function GroupStory() {
+  return (
+    <section
+      className="section group-story"
+      aria-labelledby="group-story-title"
+    >
+      <h1 className="statement" id="group-story-title">
+        {siteContent.group.statement}
+      </h1>
+      <div>
+        {siteContent.group.history.map((paragraph) => (
+          <p key={paragraph}>{paragraph}</p>
+        ))}
       </div>
     </section>
   );

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Header } from '@/components/site/header';
 import { Members } from '@/components/site/members';
 import { Founders } from '@/components/site/founders';
+import { GroupIntro } from '@/components/site/group-intro';
 import { Footer } from '@/components/site/footer';
 
 export const metadata: Metadata = {
@@ -14,15 +15,9 @@ export default function GroupPage() {
   return (
     <main>
       <Header />
-      <section className="section group-intro">
-        <div className="section-heading">
-          <div>
-            <span className="section-number">01</span>
-            <h1>O grupo</h1>
-          </div>
-        </div>
+      <GroupIntro>
         <Founders />
-      </section>
+      </GroupIntro>
       <Members />
       <Footer />
     </main>

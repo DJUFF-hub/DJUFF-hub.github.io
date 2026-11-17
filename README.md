@@ -4,7 +4,7 @@ Esqueleto editorial e pipeline de projetos para a fachada pública do DJUFF.
 
 ## Páginas
 
-- `/` — apresentação do grupo e galeria de fotos
+- `/` — história do grupo, links para as páginas do site e galeria de fotos
 - `/jogos/` — portfólio sincronizado com o itch.io
 - `/grupo/` — fundadores, membros atuais e ex-integrantes
 - `/atividades/` — frentes permanentes do coletivo

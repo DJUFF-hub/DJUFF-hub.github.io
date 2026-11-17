@@ -1,5 +1,5 @@
 import { Header } from '@/components/site/header';
-import { GroupIntro } from '@/components/site/group-intro';
+import { GroupStory } from '@/components/site/group-intro';
 import { HomeNavigation } from '@/components/site/home-navigation';
 import { siteContent } from '@/content/site';
 
@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="home-page">
       <Header />
-      <GroupIntro />
+      <GroupStory />
       <HomeNavigation />
       <section
         className="home-gallery"
