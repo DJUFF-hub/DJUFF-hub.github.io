@@ -1,6 +1,12 @@
 import { formerMembers, members, type Member } from '@/content/members';
 
-function MemberGrid({ people }: { people: Member[] }) {
+export function MemberGrid({
+  people,
+  heading: NameHeading = 'h4',
+}: {
+  people: readonly Member[];
+  heading?: 'h3' | 'h4';
+}) {
   return (
     <div className="members-grid">
       {people.map((member) => (
@@ -18,7 +24,15 @@ function MemberGrid({ people }: { people: Member[] }) {
               <span className="member-photo-placeholder" aria-hidden="true" />
             )}
           </div>
-          <h4>{member.name}</h4>
+          <NameHeading className="member-name">
+            {member.profileUrl ? (
+              <a href={member.profileUrl} target="_blank" rel="noreferrer">
+                {member.name}
+              </a>
+            ) : (
+              member.name
+            )}
+          </NameHeading>
           <p>{member.role}</p>
         </article>
       ))}
@@ -38,7 +52,7 @@ export function Members() {
         <MemberGrid people={members} />
       </section>
       <section className="member-group" aria-labelledby="former-members-title">
-        <h3 id="former-members-title">Ex-membros</h3>
+        <h3 id="former-members-title">Ex-integrantes</h3>
         <MemberGrid people={formerMembers} />
       </section>
     </section>

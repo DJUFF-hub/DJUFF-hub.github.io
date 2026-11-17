@@ -56,6 +56,9 @@
   .home-gallery {
     grid-template-columns: 1fr;
   }
+  .home-navigation ul {
+    grid-template-columns: 1fr;
+  }
   footer {
     grid-template-columns: 1fr;
   }

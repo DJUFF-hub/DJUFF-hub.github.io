@@ -6,7 +6,7 @@ import { Footer } from '@/components/site/footer';
 export const metadata: Metadata = {
   title: 'Parceiros — DJUFF',
   description:
-    'Instituições e grupos parceiros e patrocinadores recorrentes dos eventos do DJUFF.',
+    'Instituições, grupos e pessoas parceiras do DJUFF, além dos patrocinadores recorrentes dos eventos.',
 };
 export const dynamic = 'force-static';
 export default function PartnersPage() {

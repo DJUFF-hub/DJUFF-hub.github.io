@@ -3,6 +3,7 @@ export type Member = {
   role: string;
   photo?: string;
   founder?: boolean;
+  profileUrl?: string;
 };
 
 export const members = [
@@ -139,11 +140,6 @@ export const formerMembers = [
     photo: '/participants/Michelle Mayumi Tizuka.jpeg',
   },
   {
-    name: 'Victor Ferrari',
-    role: 'Graduado em Engenharia Mecânica, licenciado em Matemática pela FAEP, tecnólogo em Computer Games and Programming Skills, mestre em Ciência da Computação com foco em Computação Gráfica e doutorando em Ciência da Computação com foco em Realidade Virtual. Produtor e desenvolvedor de jogos na Goiaba Games Studio',
-    photo: '/participants/Victor Ferrari.jpeg',
-  },
-  {
     name: 'Thay Pantuza',
     role: 'Mestre em Tecnologias de Comunicação e Cultura pela UERJ, na área de Comunicação Social, com ênfase em Game Studies, e bacharel em Cinema e Audiovisual pela UFF. Diretora criativa e Game Producer no Pantuza Studios, embaixadora da Women in Games, curadora de jogos e códigos criativos no Festival Ecrã e designer de narrativa do jogo Sonatina. Atua também como Game Producer, designer de narrativa e social media na Purple Shore Studio, no jogo The Pale Place.',
     photo: '/participants/Thays Pantuza.png',
@@ -161,6 +157,23 @@ export const formerMembers = [
   },
 ] satisfies Member[];
 
-export const founders: Member[] = [...members, ...formerMembers].filter(
-  (member) => 'founder' in member && member.founder,
-);
+export const partnerMembers = [
+  {
+    name: 'Victor Ferrari',
+    role: 'Graduado em Engenharia Mecânica, licenciado em Matemática pela FAEP, tecnólogo em Computer Games and Programming Skills, mestre em Ciência da Computação com foco em Computação Gráfica e doutorando em Ciência da Computação com foco em Realidade Virtual. Produtor e desenvolvedor de jogos na Goiaba Games Studio',
+    photo: '/participants/Victor Ferrari.jpeg',
+    profileUrl: 'https://br.linkedin.com/in/victorsassi',
+  },
+  {
+    name: 'Márcio Filho',
+    role: 'Fundador da GF Corp e ex-presidente da ACJOGOS-RJ. Atua com jogos aplicados à educação e na articulação do setor de jogos digitais.',
+    photo: '/participants/Márcio Filho.jpeg',
+    profileUrl: 'https://www.linkedin.com/in/filhomarcio/',
+  },
+] satisfies Member[];
+
+export const founders: Member[] = [
+  ...members,
+  ...formerMembers,
+  ...partnerMembers,
+].filter((member) => 'founder' in member && member.founder);

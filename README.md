@@ -4,9 +4,9 @@ Esqueleto editorial e pipeline de projetos para a fachada pública do DJUFF.
 
 ## Páginas
 
-- `/` — abertura com a foto do grupo
+- `/` — apresentação do grupo e galeria de fotos
 - `/jogos/` — portfólio sincronizado com o itch.io
-- `/grupo/` — história e integrantes
+- `/grupo/` — fundadores, membros atuais e ex-integrantes
 - `/atividades/` — frentes permanentes do coletivo
 - `/parceiros/` — rede institucional e universitária
 
@@ -31,7 +31,7 @@ Leia `DESIGN-HANDOFF.md` antes de iniciar o frontend final.
 
 ## Fotos dos integrantes
 
-As fotos ficam em `public/participants/`. Em `content/members.ts`, use o campo opcional `photo` com o caminho público, por exemplo `/participants/Ana Beatriz.jpeg`. A lista `members` reúne os membros atuais e `formerMembers`, os ex-membros. Quem ainda não tem foto mantém o espaço reservado. Os retratos são exibidos na proporção 4:5, com recorte central.
+As fotos ficam em `public/participants/`. Em `content/members.ts`, use o campo opcional `photo` com o caminho público, por exemplo `/participants/Ana Beatriz.jpeg`. A lista `members` reúne os membros atuais, `formerMembers`, os ex-integrantes, e `partnerMembers`, os agregados parceiros. Quem ainda não tem foto mantém o espaço reservado. Os retratos são exibidos na proporção 4:5, com recorte central.
 
 ## Edição de conteúdo e identidade
 

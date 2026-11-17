@@ -1,10 +1,14 @@
 import { Header } from '@/components/site/header';
+import { GroupIntro } from '@/components/site/group-intro';
+import { HomeNavigation } from '@/components/site/home-navigation';
 import { siteContent } from '@/content/site';
 
 export default function Home() {
   return (
     <main className="home-page">
       <Header />
+      <GroupIntro />
+      <HomeNavigation />
       <section
         className="home-gallery"
         aria-label="Fotos do grupo e dos eventos do DJUFF"

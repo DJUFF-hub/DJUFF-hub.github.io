@@ -1,4 +1,6 @@
 import { OrganizationList } from '@/components/site/organization-list';
+import { MemberGrid } from '@/components/site/members';
+import { partnerMembers } from '@/content/members';
 import { siteContent } from '@/content/site';
 export function Partners() {
   return (
@@ -14,6 +16,13 @@ export function Partners() {
         </p>
       </div>
       <OrganizationList groups={siteContent.partnerGroups} />
+      <section
+        className="member-group individual-partners"
+        aria-labelledby="partner-members-title"
+      >
+        <h2 id="partner-members-title">Parceiros pessoa-física</h2>
+        <MemberGrid people={partnerMembers} heading="h3" />
+      </section>
     </section>
   );
 }
