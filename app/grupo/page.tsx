@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Header } from '@/components/site/header';
 import { Members } from '@/components/site/members';
+import { Founders } from '@/components/site/founders';
 import { Footer } from '@/components/site/footer';
 import { siteContent } from '@/content/site';
 
@@ -33,6 +34,7 @@ export default function GroupPage() {
             ))}
           </div>
         </div>
+        <Founders />
       </section>
       <Members />
       <Footer />

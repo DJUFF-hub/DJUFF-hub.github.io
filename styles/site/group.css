@@ -139,3 +139,44 @@
 .member-group .members-grid {
   margin-top: 24px;
 }
+.founders {
+  margin-top: clamp(40px, 6vw, 72px);
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.founders-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.founders-heading h2 {
+  margin: 0;
+  font: 400 clamp(2rem, 3vw, 3rem)/1 var(--font-display);
+  text-transform: uppercase;
+}
+.founders-heading span {
+  font-weight: 500;
+}
+.founders-portraits {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 28px);
+}
+.founders-portraits figure {
+  margin: 0;
+  min-width: 0;
+}
+.founders-portraits img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+.founders-portraits figcaption {
+  padding-top: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+}

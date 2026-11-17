@@ -97,6 +97,11 @@ export const siteContent = {
           url: 'https://sites.google.com/view/include-meninas-uff',
           logo: '/partners/include-meninas.png',
         },
+        {
+          name: 'Grupo de Animadores/Artistas da UVA',
+          url: 'https://www.instagram.com/dg_da_uva/',
+          logo: '/partners/dg-da-uva.jpg',
+        },
       ],
     },
     {
