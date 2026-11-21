@@ -158,7 +158,7 @@ export const formerMembers = [
   {
     name: 'Vitor Augusto',
     role: 'Graduado em Ciência da Computação. Entre os jogos que desenvolveu com o coletivo está "Raízes", que conquistou o terceiro lugar em uma das categorias patrocinadas da Game Jam Plus 2022/2023. Atualmente, trabalha com jogos e participa de um projeto em parceria com a Game Builders.',
-    photo: '/participants/Vitor Augusto .jpeg',
+    photo: '/participants/Vitor Augusto.jpeg',
   },
 ] satisfies Member[];
 
