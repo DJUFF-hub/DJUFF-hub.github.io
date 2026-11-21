@@ -155,6 +155,11 @@ export const formerMembers = [
     role: 'Mestre em Tecnologias de Comunicação e Cultura pela UERJ, na área de Comunicação Social, com ênfase em Game Studies, e bacharel em Cinema e Audiovisual pela UFF. Diretora criativa e Game Producer no Pantuza Studios, embaixadora da Women in Games, curadora de jogos e códigos criativos no Festival Ecrã e designer de narrativa do jogo Sonatina. Atua também como Game Producer, designer de narrativa e social media na Purple Shore Studio, no jogo The Pale Place.',
     photo: '/participants/Thays Pantuza.png',
   },
+  {
+    name: 'Vitor Augusto',
+    role: 'Graduado em Ciência da Computação. Entre os jogos que desenvolveu com o coletivo está "Raízes", que conquistou o terceiro lugar em uma das categorias patrocinadas da Game Jam Plus 2022/2023. Atualmente, trabalha com jogos e participa de um projeto em parceria com a Game Builders.',
+    photo: '/participants/Vitor Augusto .jpeg',
+  },
 ] satisfies Member[];
 
 export const partnerMembers = [
